@@ -1,0 +1,16 @@
+{
+  "name": "line-number",
+  "repo": "brighthas/line-number",
+  "description": "html's code tag convert to have line number table tag.",
+  "version": "0.0.1",
+  "keywords": ["code","convert","line"],
+  "dependencies": {
+    "component/dom": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

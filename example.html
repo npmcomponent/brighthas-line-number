@@ -1,0 +1,22 @@
+<body>
+<pre><code>
+// index.js source code
+module.exports = function parse(tag){
+    // source codes
+    ......
+    return dom("&lt;table&gt;"+tableTagBodyStr+"&lt;/table&gt;").els[0];
+    ......
+}
+
+var parse = require("line-number");
+var tag = document.querySelector("pre");
+document.body.appendChild(parse(tag));
+</code></pre>    
+<hr/>
+    <script src="build/build.js"></script>
+    <script>
+        var parse = require("line-number");
+        var tag = document.querySelector("pre");
+        document.body.appendChild(parse(tag));
+    </script>
+</body>
