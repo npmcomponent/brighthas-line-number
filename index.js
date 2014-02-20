@@ -1,4 +1,4 @@
-var dom = require("dom");
+var dom = require('component-dom');
 module.exports = function parse(tag){
 
     if(tag.tagName.toLowerCase() !== "code"){
